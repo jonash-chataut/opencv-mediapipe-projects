@@ -5,7 +5,7 @@ import time
 import Module_pose_detection as mpd
 
 
-cap =cv2.VideoCapture("personal trainer\sample videos\pushup2.mp4")
+cap =cv2.VideoCapture("personal trainer\pushup sample vidoes\pushup2.mp4")
 # cap =cv2.VideoCapture(0)
 pTime=0
 detector=mpd.poseDetector()
